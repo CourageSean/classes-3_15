@@ -1,8 +1,12 @@
 body {
   display: grid;
   place-items: center;
+  background-color: ;
 }
 
 .card {
   width: 18rem;
+}
+#form1 {
+  text-align: center;
 }
