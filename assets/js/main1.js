@@ -2,6 +2,7 @@ const body = document.querySelector("body");
 const form1 = document.getElementById("form1");
 const inputs = document.querySelectorAll("input");
 const textArea = document.getElementById("text-area");
+const section = document.querySelector("section");
 
 class Star {
   constructor(
@@ -67,7 +68,7 @@ class Star {
 
     cardContainer.appendChild(ul);
 
-    body.appendChild(cardContainer);
+    section.appendChild(cardContainer);
   }
 }
 
